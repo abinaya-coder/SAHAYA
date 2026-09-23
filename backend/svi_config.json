@@ -1,0 +1,18 @@
+{
+  "weights": {
+    "IMMEDIATE_SAFETY": 30,
+    "THREAT": 25,
+    "FEAR_DISTRESS": 15,
+    "URGENCY": 10,
+    "REPEATED_INCIDENT": 10,
+    "VIOLENCE": 5,
+    "EMOTIONAL_INTENSITY": 5
+  },
+  "bands": [
+    { "max": 25, "label": "LOW", "color": "emerald" },
+    { "max": 50, "label": "MODERATE", "color": "amber" },
+    { "max": 75, "label": "HIGH", "color": "orange" },
+    { "max": 100, "label": "CRITICAL", "color": "rose" }
+  ],
+  "disclaimer": "AI-assisted indicator — final assessment and action remain with the authorized human officer."
+}
